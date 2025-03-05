@@ -3,6 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="./src/styles/style.css">
+
     <title>Login</title>
 </head>
 <body>
@@ -15,18 +18,22 @@
 
             <section class="input-form-box">
 
-                <div class="user-section">
-                    <label for="user-input" class="user-label">User</label>
-                    <input type="text" name="user-input" class="user-input" placeholder="Username..." required>
+                <div>
+                    <label for="email-input" class="email-label">E-mail</label>
+                    <input type="email" name="email-input" class="email-input" placeholder="E-mail..." required>
                 </div>
 
-                <div class="password-section">
-                    <label for="password-input" class="password-label"></label>
+                <div>
+                    <label for="password-input" class="password-label">Password</label>
                     <input type="password" name="password-input" class="password-input" placeholder="Password..." required>
                 </div>
 
                 <button type="submit" class="btn-login">Login</button>
 
+            </section>
+
+            <section class="register-link-box">
+                <p>Don't have an account? <a href="#">Sign up</a></p>
             </section>
 
         </form>
