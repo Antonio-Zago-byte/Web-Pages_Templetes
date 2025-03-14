@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    <link rel="stylesheet" href="./src/styles/style.css">
+    <link rel="stylesheet" href="./src/styles/reset.css">
+    <link rel="stylesheet" href="./src/styles/light-theme.css">
+    <link rel="stylesheet" href="./src/styles/dark-theme.css">
 
     <title>Login</title>
 </head>
@@ -20,7 +22,7 @@
 
                 <div>
                     <label for="email-input" class="email-label">E-mail:</label>
-                    <input type="email" name="email-input" class="email-input" placeholder="email@email.com" required>
+                    <input type="email" name="email-input" class="email-input" placeholder="email@email.com" required autofocus>
                 </div>
 
                 <div>
@@ -33,7 +35,7 @@
             </section>
 
             <section class="register-link-box">
-                <p>Don't have an account? <a href="#">Sign up</a></p>
+                <p>Don't have an account? <a href="#"><i>Sign up</i></a></p>
             </section>
 
         </form>
