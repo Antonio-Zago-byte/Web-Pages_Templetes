@@ -17,3 +17,21 @@ body {
 
 h1, p {cursor: default;}
 button {cursor: pointer;}
+
+.btn-chage-theme {    
+
+    width: 32px;
+    height: 32px;
+
+    position: fixed;
+    top: 10px;
+    right: 10px;
+
+    border: none;
+
+    cursor: pointer
+}
+
+.btn-chage-theme img {
+    width: 32px;
+}
