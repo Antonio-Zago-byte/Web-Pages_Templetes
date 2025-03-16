@@ -53,3 +53,23 @@ input {
 .btn-chage-theme img {
     width: 32px;
 }
+
+.btn-home {    
+
+    background-color: transparent;
+
+    width: 32px;
+    height: 32px;
+
+    position: fixed;
+    top: 10px;
+    left: 10px;
+
+    border: none;
+
+    cursor: pointer
+}
+
+.btn-home img {
+    width: 32px;
+}
