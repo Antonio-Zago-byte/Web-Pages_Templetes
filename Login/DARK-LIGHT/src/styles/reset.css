@@ -18,7 +18,20 @@ body {
 h1, p {cursor: default;}
 button {cursor: pointer;}
 
+input {
+    outline: none;
+}
+
+.btn-home {
+
+    position: fixed;
+    top: 10px;
+    left: 10px;
+}
+
 .btn-chage-theme {    
+
+    background-color: transparent;
 
     width: 32px;
     height: 32px;
